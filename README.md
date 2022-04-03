@@ -2,12 +2,12 @@
 
 #### 22년 3월 5주차
 * [Sort Array By Parity](https://github.com/seokjae88/LeetCode/tree/main/905-sort-array-by-parity)
-   *  ` Easy `
+   *  ` Easy ` ` C++ `
 * [Consecutive Characters](https://github.com/seokjae88/LeetCode/tree/main/1446-consecutive-characters)
-   * ` Easy `
+   * ` Easy ` ` C++ `
 <br/><br/>
 #### 22년 4월 1주차
 * [Sort Array By Parity](https://github.com/seokjae88/LeetCode/tree/main/905-sort-array-by-parity)
-   *  ` Easy `
+   *  ` Easy ` ` C++ `
 * [Consecutive Characters](https://github.com/seokjae88/LeetCode/tree/main/1446-consecutive-characters)
-   * ` Easy `
+   * ` Easy ` ` C++ `
