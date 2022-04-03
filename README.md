@@ -1,1 +1,3 @@
-# LeetCode
+# LeetCode (2022.03.27~)
+
+## 22년 3월 5주차 easy 2문제
