@@ -12,6 +12,7 @@
 * [Consecutive Characters](https://github.com/seokjae88/LeetCode/tree/main/1446-consecutive-characters)
    * ` Easy `
 
+<br/><br/><br/><br/>
 
 > #### 22년 3월 5주차
 > * [Sort Array By Parity](https://github.com/seokjae88/LeetCode/tree/main/905-sort-array-by-parity)
