@@ -10,7 +10,10 @@ public:
                         nums[i] = tmp;
                         break;
                     }
-                }
+                    if (j == nums.size() - 1) {
+                        return nums;
+                    }
+                }                
             }
         }
         return nums;
