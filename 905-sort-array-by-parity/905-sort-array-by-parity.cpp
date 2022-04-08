@@ -1,15 +1,16 @@
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& nums) {
-        vector<int> ret;
+        deque<int> q;
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] % 2) {
-                ret.push_back(nums[i]);
+                q.push_back(nums[i]);
             }
             else {
-                ret.insert(ret.begin(), nums[i]);
+                q.push_front(nums[i]);
             }
         }
+        vector<int> ret(q.begin(), q.end());
         return ret;
     }
 };
