@@ -1,23 +1,24 @@
 class Solution {
 public:
-    void reverseStr(string& str, int start, int end)
-    {
-        while (start < end)
-        {
-            int temp = str[start];
-            str[start] = str[end];
-            str[end] = temp;
-            start++;
-            end--;
-        }
-    }
     string reversePrefix(string word, char ch) {
+        string ret = "";
         for (int i = 0; i < word.size(); i++) {
             if (word[i] == ch) {
-                reverseStr(word, 0, i);
+                for (int j = 0; j <= i; j++) {
+                    ret.push_back(word[i - j]);
+                }
+                for (int j = (i + 1); j < word.size(); j++) {
+                    ret.push_back(word[j]);
+                }
                 break;
             }
         }
-        return word;
+        if (ret.size() > 0) {
+            return ret;
+        }
+        else {
+            return word;
+        }
+        
     }
 };
