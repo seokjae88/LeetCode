@@ -1,24 +1,23 @@
 class Solution {
 public:
+    void reverseStr(string& str, int start, int end)
+    {
+        while (start < end)
+        {
+            int temp = str[start];
+            str[start] = str[end];
+            str[end] = temp;
+            start++;
+            end--;
+        }
+    }
     string reversePrefix(string word, char ch) {
-        std::vector<char> input;
         for (int i = 0; i < word.size(); i++) {
             if (word[i] == ch) {
-                for (int j = 0; j <= i; j++) {
-                    input.push_back(word[i - j]);
-                }
-                for (int j = (i + 1); j < word.size(); j++) {
-                    input.push_back(word[j]);
-                }
+                reverseStr(word, 0, i);
                 break;
             }
         }
-        if (input.size() > 0) {
-            string ret(input.begin(), input.end());
-            return ret;
-        }
-        else {
-            return word;
-        }
+        return word;
     }
 };
