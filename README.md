@@ -7,7 +7,7 @@
    * ` Easy ` ` C++ `
 <br/><br/>
 #### 22년 4월 1주차
-* [Sort Array By Parity](https://github.com/seokjae88/LeetCode/tree/main/905-sort-array-by-parity)
+* [Reverse Prefix of Word](https://github.com/seokjae88/LeetCode/tree/main/2000-reverse-prefix-of-word)
    *  ` Easy ` ` C++ `
-* [Consecutive Characters](https://github.com/seokjae88/LeetCode/tree/main/1446-consecutive-characters)
-   * ` Easy ` ` C++ `
+* [Sort the Matrix Diagonally](https://github.com/seokjae88/LeetCode/tree/main/1329-sort-the-matrix-diagonally)
+   * ` Medium ` ` C++ `
