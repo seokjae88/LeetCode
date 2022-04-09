@@ -6,24 +6,24 @@ public:
 
         int i = 1;
         while (xSize > (x + i) && ySize > (y + i)) {
-            int xKey = x + i;
-            int yKey = y + i;
-            int key = mat[yKey][xKey];
+            int key = mat[y + i][x + i];
             
-            int j = i;
-            while (j > 0 && key < mat[yKey - j][xKey - j]) {
-                swap(mat[yKey - j][xKey - j], mat[yKey][xKey]);
+            int j = (i-1);
+            while (j >= 0 && key < mat[y + j][x + j]) {
+                mat[y + (j + 1)][x + (j + 1)] = mat[y + j][x + j];
                 j--;
             }
+            mat[y + (j + 1)][x + (j + 1)] = key;
             i++;
         }
     }
     
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
-        for (int i = 0; i < mat.size(); i++) {
-            for (int j = 0; j < mat[i].size(); j++) {
-                insertSort(mat, j, i);
-            }
+        for (int i = 0; i < mat[0].size(); i++) {
+            insertSort(mat, i, 0);
+        }
+        for (int i = 1; i < mat.size(); i++) {
+            insertSort(mat, 0, i);
         }
         return mat;
     }
