@@ -11,3 +11,9 @@
    *  ` Easy ` ` C++ `
 * [Sort the Matrix Diagonally](https://github.com/seokjae88/LeetCode/tree/main/1329-sort-the-matrix-diagonally)
    * ` Medium ` ` C++ `
+<br/><br/>
+#### 22년 4월 2주차
+* [smallest-index-with-equal-value](https://github.com/seokjae88/LeetCode/tree/main/2057-smallest-index-with-equal-value)
+   *  ` Easy ` ` Java `
+* [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+   * ` Medium ` ` Java `
