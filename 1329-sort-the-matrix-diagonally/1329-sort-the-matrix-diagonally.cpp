@@ -1,29 +1,37 @@
+#include <algorithm>
 class Solution {
 public:
-    void insertSort(vector<vector<int>>& mat, int x, int y) {
-        int xSize = mat[0].size();
-        int ySize = mat.size();
+    void arraySort(int x, int y, int size, vector<vector<int>>& mat) {
+        vector<int> tempArray;
+        for (int i = 0; i < size; i++) {
+            tempArray.push_back(mat[y + i][x + i]);
+        }
 
-        int i = 1;
-        while (xSize > (x + i) && ySize > (y + i)) {
-            int key = mat[y + i][x + i];
-            
-            int j = (i-1);
-            while (j >= 0 && key < mat[y + j][x + j]) {
-                mat[y + (j + 1)][x + (j + 1)] = mat[y + j][x + j];
-                j--;
-            }
-            mat[y + (j + 1)][x + (j + 1)] = key;
-            i++;
+        sort(tempArray.begin(), tempArray.end());
+
+        for (int i = 0; i < size; i++) {
+            mat[y + i][x + i] = tempArray[i];
         }
     }
     
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
-        for (int i = 0; i < mat[0].size(); i++) {
-            insertSort(mat, i, 0);
+        int xSize = mat[0].size();
+        int ySize = mat.size();
+
+        if (xSize == 1 || ySize == 1) {
+            return mat;
         }
-        for (int i = 1; i < mat.size(); i++) {
-            insertSort(mat, 0, i);
+        if (xSize > ySize) {
+            arraySort(0, 0, ySize, mat);
+        } else {
+            arraySort(0, 0, xSize, mat);
+        }
+
+        for (int i = 1; i < xSize; i++) {
+            arraySort(i, 0, (xSize - i) < ySize ? (xSize - i) : ySize, mat);
+        }
+        for (int i = 1; i < ySize; i++) {
+            arraySort(0, i, (ySize - i) < xSize ? (ySize - i) : xSize, mat);
         }
         return mat;
     }
