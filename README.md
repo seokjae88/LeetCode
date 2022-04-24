@@ -15,7 +15,7 @@
 #### 22년 4월 2주차
 * [smallest-index-with-equal-value](https://github.com/seokjae88/LeetCode/tree/main/2057-smallest-index-with-equal-value)
    *  ` Easy ` ` Java `
-* [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+* [Minimum Operations to Reduce X to Zero](https://github.com/seokjae88/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero)
    * ` Medium ` ` Java `
 <br/><br/>
 #### 22년 4월 3주차
