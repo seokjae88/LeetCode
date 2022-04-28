@@ -25,7 +25,7 @@
    * ` Medium ` ` Java `
 <br/><br/>
 #### 22년 4월 4주차
-* [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
+* [Minimum Value to Get Positive Step by Step Sum](https://github.com/seokjae88/LeetCode/tree/main/1413-minimum-value-to-get-positive-step-by-step-sum)
    *  ` Easy ` ` Java `
 * [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
    * ` Medium ` ` Java `
