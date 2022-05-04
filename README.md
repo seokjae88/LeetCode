@@ -29,3 +29,9 @@
    *  ` Easy ` ` Java `
 * [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
    * ` Medium ` ` Java `
+<br/><br/>
+#### 22년 5월 1주차
+* [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)
+   *  ` Easy ` ` Java `
+* [Sort Colors](https://leetcode.com/problems/sort-colors/)
+   * ` Medium ` ` Java `
