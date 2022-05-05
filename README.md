@@ -33,5 +33,5 @@
 #### 22년 5월 1주차
 * [Find First Palindromic String in the Array](https://github.com/seokjae88/LeetCode/tree/main/2108-find-first-palindromic-string-in-the-array)
    *  ` Easy ` ` Java `
-* [Sort Colors](https://leetcode.com/problems/sort-colors/)
+* [Sort Colors](https://github.com/seokjae88/LeetCode/tree/main/75-sort-colors)
    * ` Medium ` ` Java `
