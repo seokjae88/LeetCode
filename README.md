@@ -35,3 +35,10 @@
    *  ` Easy ` ` Java `
 * [Sort Colors](https://github.com/seokjae88/LeetCode/tree/main/75-sort-colors)
    * ` Medium ` ` Java `
+<br/><br/>
+#### 22년 5월 2주차
+* [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
+   *  ` Easy ` ` Java `
+* [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)
+   * ` Medium ` ` Java `
+
